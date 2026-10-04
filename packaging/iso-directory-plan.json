@@ -1,0 +1,18 @@
+{
+  "format": "retrogame-patcher-iso9660-directory-file-bps",
+  "id": "pc98-madou456-ko",
+  "title": "마도사오륙 한국어 패치",
+  "output_filename": "madou456-ko-1.0.0.iso",
+  "source": {
+    "size": 46901232,
+    "sha256": "a288832c3f1ff2ff457f457d2db450eb27d8bb24f902e1dd886322aeb097c7db",
+    "volume_id": "DS_VOL.9",
+    "directory": "DS9_DATA/MADOU456",
+    "expected_file_count": 176,
+    "expected_total_size": 1686992
+  },
+  "target": {
+    "volume_id": "MADOU456_KO",
+    "directory": "MADOU456"
+  }
+}

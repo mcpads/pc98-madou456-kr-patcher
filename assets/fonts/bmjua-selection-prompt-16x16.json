@@ -1,0 +1,15 @@
+{
+  "schema": "pc98_madou456.font_profile",
+  "id": "bmjua-selection-prompt-16x16",
+  "font": "BMJUA.ttf",
+  "font_sha256": "e8e6aa8b1b662c7bf0d7f136f29e822e0985176458a6e5d0ba08afc4a5c901a9",
+  "font_version": "1.0",
+  "font_size": 15,
+  "baseline_y": 15,
+  "vertical_fit": "baseline_then_clamp",
+  "threshold": 128,
+  "rasterizer": "fontdue 0.9.3",
+  "license": "BMJUA-OFL.txt",
+  "source": "https://www.woowahan.com/fonts",
+  "upstream_revision": "BM JUA_TTF 2014 official distribution"
+}

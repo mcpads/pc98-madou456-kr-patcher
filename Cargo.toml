@@ -1,0 +1,29 @@
+[package]
+name = "pc98-madou456-builder"
+edition = "2024"
+publish = false
+default-run = "pc98-madou456-builder"
+
+[features]
+default = []
+analysis = []
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.6", features = ["derive"] }
+encoding_rs = "0.8"
+fontdue = "=0.9.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.11"
+tempfile = "3.23"
+v30 = { git = "https://github.com/mcpads/retro-typed-isa.git", rev = "9b31c628465cb83a633445de7d39e985be184cb7" }
+
+[[bin]]
+name = "pc98-madou456-analysis"
+path = "src/bin/analysis.rs"
+required-features = ["analysis"]
+
+[profile.release]
+lto = "thin"
+strip = true

@@ -1,0 +1,26 @@
+/target/
+/roms/
+/out/
+/assets/translations/
+/assets/analysis/
+/assets/graphics/
+/assets/fonts/*.ttf
+/assets/fonts/*.otf
+/assets/fonts/*.txt
+.DS_Store
+/.claude/
+/.emucap/
+
+# User-supplied and generated PC-98 media and patch packages
+*.hdi
+*.hdm
+*.img
+*.iso
+*.ccd
+*.cue
+*.sub
+*.bps
+*.zip
+*.png
+*.bmp
+*.ppm
